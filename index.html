@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="ejercicio1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    <title>EJERCICIO JS</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a CAFÉ EXPRESO</h1>
+        <section class="menu">
+        <ul class="menu-list">
+            <li class="activado">Cafes</li>
+            <li>Bebidas frias</li>
+            <li>Boca</li>
+            <li>Contacto</li>
+        </ul>
+
+            <button>
+            <i class="fas fa-times"></i>
+            <li class="fas fa-bars"></li>
+            </button>
+        </section>
+    </header>
+
+    <section class="main">
+            <section class="left">
+                <p class="title">Café EXPRESO</p>
+                <p class="msg">Ofrecen una variedad de expresos, desde los clásicos hasta creaciones especiales con diferentes orígenes de granos y perfiles de sabor.
+                                Pueden incluir espressos simples o dobles.</p>
+                <button class="cta">¡PIDE YA!</button>
+            </section>
+            
+            <section class="right">
+                <img src="coffee-3120750_1920.jpg" alt="no se puede mostrar la imagen">
+            </section>
+    </section>
+
+    <script>
+        var menu=document.querySelector('.menu')
+        var menuBTN=document.querySelector('.menu button')
+
+        menuBTN.addEventListener('click', ()=>{
+            menu.classList.toggle('opened')
+        }
+    
+    
+    
+    
+    )
+    </script>
+</body>
+</html>
